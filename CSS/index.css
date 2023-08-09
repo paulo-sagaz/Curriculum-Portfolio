@@ -6,10 +6,6 @@ header {
             border-bottom: 10px solid #000;
             padding: 10px 20px;
         }
-    h1  { font-family: 'Press Start 2P', sans-serif;
-        color: #FFF;
-        text-shadow: 5px 5px 0px #000;  
-        }
 
     nav {
             text-align: right;
@@ -56,6 +52,8 @@ header {
         #button:hover{
             transform: scale(1.10);
         }
+
+
 
 
 
