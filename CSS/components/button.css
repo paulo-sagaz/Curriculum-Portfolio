@@ -4,7 +4,9 @@
     box-shadow: 5px 5px 0px #000;   
     padding: 18px 20px;
     margin: 0;
-    transition: transform 100ms linear;
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
+    font-size: 20px;
+    color: #FFF;
 }
 
 .button:hover{
