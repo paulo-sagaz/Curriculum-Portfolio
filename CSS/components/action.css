@@ -6,15 +6,15 @@
     font-weight: 300;
     text-decoration: none;
     margin-right: 30px;
-        }
+}
 .action:hover   {
     color: rgb(87, 249, 17);
     text-decoration-color: underline ;
-                }
+}
 .action::before {
     content: "";
     background-color: #F25A70;
     width: 10px;
     height: 10px;
     margin-right: 10px ;
-                }
+}
