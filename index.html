@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/components/main-title.css">
     <link rel="stylesheet" href="CSS/components/main-subtitle.css">
-    <link rel="stylesheet" href="CSS/components/header.css">
+    <link rel="stylesheet" href="CSS/components/main-header.css">
     <link rel="stylesheet" href="CSS/components/main-banner.css">
     <link rel="stylesheet" href="CSS/components/main-section.css">
     <link rel="stylesheet" href="CSS/components/main-box.css">
@@ -23,12 +23,15 @@
     <link rel="stylesheet" href="CSS/components/card-project.css">
     <link rel="stylesheet" href="CSS/components/wrapper-card.css">
     <link rel="stylesheet" href="CSS/components/progress-bar.css">
-    
+    <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="CSS/components/main-description.css">
+    <link rel="stylesheet" href="CSS/components/button-arrow.css">
+    <link rel="stylesheet" href="CSS/components/node-card.css">
       
 
 </head>
 <body>
-    <header class="header">
+    <header class="main-header">
         <img src="assets/img/logo.png" alt="Avatar">
         <nav><!---<nav> é usada para definir uma seção de navegação em uma página da web-->
             <a class="main-action" href="" lang="en">Skills</a>
@@ -152,12 +155,61 @@
             </a>
     </div>
     </section>
+    <section class="main-section-bdmid">
+        <h3 class="main-title -second">Sobre</h3>
+ 
+                <p class="main-description">
+                    Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
+                </p> 
+            <section class="main-carousel">
+                <button class="button-arrow -left"><span class="content">Avançar</span></button>
+                <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                    <div class="logo">
+                        <img src="img/logo-locaweb.png" alt="Logo da LocaWeb">
+                    </div>                            
+                </figure>
+                <figure class="node-card -clean">
+                    <figcaption class="title">2014</figcaption>
+                    <div class="logo">
+                     <img src="img/logo-caelum.png" alt="Logo da Caelum">
+                    </div>                            
+                </figure>
+                <figure class="node-card">
+                    <figcaption class="title">2017</figcaption>
+                    <div class="logo">
+                        <img src="img/logo-getninjas.png" alt="Logo da Getninjas">
+                    </div>                            
+                
+                </figure>
+                <figure class="node-card -clean">
+                <figcaption class="title">2014</figcaption>
+                    <div class="logo">
+                         <img src="img/logo-caelum.png" alt="Logo da Caelum2">
+                    </div>                            
+                </figure>
+                <figure class="node-card">
+                    <figcaption class="title">2014</figcaption>
+                    <div class="logo">
+                        <img src="img/logo-impulso.png" alt="Logo da Impulso">
+                    </div>                            
+                </figure>
+                <figure class="node-card">
+                    <figcaption class="title">2014</figcaption>
+                    <div class="logo">
+                         <img src="img/logo-collabcode (1).png" alt="Logo da Collabcode">
+                    </div>                            
+                </figure>
+        
+                <button class="button-arrow -right"><span class="content">Voltar</span></button>
+            </section>   
+             
+    </section>
 
-    
 </body>
 </html>
 
-
+<!--sempre que trocar o flex direction troca o comportamento das propriedades eixo horizontal ou vertical-->>
 <!---INLINE o display inline deixa elementos fiquem um do lado do outro por exemplo as tags "a" acima (/*https://paulo-sagaz.github.io/curso-html-css-feliz/*/)-->
 <!-- <html>: Define o início do documento HTML e contém todos os elementos da página.
 <head>: Contém informações sobre o documento, como título, metadados e links para arquivos externos, como folhas de estilo e scripts.

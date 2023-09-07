@@ -16,3 +16,10 @@
     color: #FFF;
     text-align: center;
 }
+
+.main-title.-second {
+    color: #FFF;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
