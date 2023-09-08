@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="CSS/components/main-box.css">
     <link rel="stylesheet" href="CSS/components/main-button.css">
     <link rel="stylesheet" href="CSS/components/main-action.css">
-    <link rel="stylesheet" href="CSS/components/layout.css">
     <link rel="stylesheet" href="CSS/components/skill-tec.css">
     <link rel="stylesheet" href="CSS/components/wrapper-skill.css">
     <link rel="stylesheet" href="CSS/components/card-project.css">
@@ -158,57 +157,64 @@
     <section class="main-section-bdmid">
         <h3 class="main-title -second">Sobre</h3>
  
-                <p class="main-description">
-                    Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
-                </p> 
             <section class="main-carousel">
                 <button class="button-arrow -left"><span class="content">Avançar</span></button>
-                <figure class="node-card">
-                        <figcaption class="title">2012</figcaption>
-                    <div class="logo">
-                        <img src="img/logo-locaweb.png" alt="Logo da LocaWeb">
-                    </div>                            
-                </figure>
-                <figure class="node-card -clean">
+                <div class="items">
+                    <div class="elements">
+                    <figure class="node-card">
+                            <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-locaweb.png" alt="Logo da LocaWeb">
+                        </div>                            
+                    </figure>
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                        <img src="img/logo-caelum.png" alt="Logo da Caelum">
+                        </div>                            
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo -ninja">
+                            <img src="img/logo-getninjas.png" alt="Logo da Getninjas">
+                        </div>                            
+                    
+                    </figure>
+                    <figure class="node-card -clean">
                     <figcaption class="title">2014</figcaption>
-                    <div class="logo">
-                     <img src="img/logo-caelum.png" alt="Logo da Caelum">
-                    </div>                            
-                </figure>
-                <figure class="node-card">
-                    <figcaption class="title">2017</figcaption>
-                    <div class="logo">
-                        <img src="img/logo-getninjas.png" alt="Logo da Getninjas">
-                    </div>                            
-                
-                </figure>
-                <figure class="node-card -clean">
-                <figcaption class="title">2014</figcaption>
-                    <div class="logo">
-                         <img src="img/logo-caelum.png" alt="Logo da Caelum2">
-                    </div>                            
-                </figure>
-                <figure class="node-card">
-                    <figcaption class="title">2014</figcaption>
-                    <div class="logo">
-                        <img src="img/logo-impulso.png" alt="Logo da Impulso">
-                    </div>                            
-                </figure>
-                <figure class="node-card">
-                    <figcaption class="title">2014</figcaption>
-                    <div class="logo">
-                         <img src="img/logo-collabcode (1).png" alt="Logo da Collabcode">
-                    </div>                            
-                </figure>
-        
+                        <div class="logo">
+                            <img src="img/logo-caelum.png" alt="Logo da Caelum2">
+                        </div>                            
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                            <img src="img/logo-impulso.png" alt="Logo da Impulso">
+                        </div>                            
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="title ">2014</figcaption>
+                        <div class="logo -coor">
+                            <img src="img/logo-collabcode (1).png" alt="Logo da Collabcode">
+                        </div>                            
+                    </figure>
+                    </div>
+                </div>
                 <button class="button-arrow -right"><span class="content">Voltar</span></button>
             </section>   
-             
+            <p class="main-description">
+                Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
+            </p> 
     </section>
+
+    <script src="js/components/main-carousel.js"></script>
 
 </body>
 </html>
 
+
+<!-- AS UNICAS PROPRIEDADES QUE PODEM SER ANIMADAS NA GPU SÃO OPACITY E TRANSFORM NO CASO DA OPACITY TRABALHA DE UM A ZERO UMA RETA ONDE ELA COLOCA UMA TRANSPARENCIA
+E A TRANSFORM NO CASO DE UMA ANIMAÇÃO PARA MEXE PARA OS LADOS USAREMOS TRANSLATE DE EXEMPLO ELA MEXE TANTO NO EIXO X QUANTO NO EIXO Y OU EIXO 3D-->
 <!--sempre que trocar o flex direction troca o comportamento das propriedades eixo horizontal ou vertical-->>
 <!---INLINE o display inline deixa elementos fiquem um do lado do outro por exemplo as tags "a" acima (/*https://paulo-sagaz.github.io/curso-html-css-feliz/*/)-->
 <!-- <html>: Define o início do documento HTML e contém todos os elementos da página.
