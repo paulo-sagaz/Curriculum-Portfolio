@@ -13,3 +13,9 @@
 .main-button:hover{
     transform: scale(1.10);
 }
+
+.main-button.-full{
+    width: 100%;
+    
+
+}
