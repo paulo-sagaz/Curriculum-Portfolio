@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 90px;
+    padding-right: 90px;
        
 }
 
@@ -26,8 +26,8 @@
     left: 0px;
     top: 33px;
     display: block;
-    height: 6px;
-    width: calc(100% + 100px);
+    border: 3px dashed #000;
+    width: 100%;
     background-color: #000;
 
 }
@@ -41,11 +41,11 @@
 
 
 .main-carousel .button-arrow.-left{
-    left: 15px;
+    left: 25px;
 }
 
 .main-carousel .button-arrow.-right{
-    right: 15px;
+    right: 25px;
 }
 
 .main-carousel .items {
