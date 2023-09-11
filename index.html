@@ -213,15 +213,15 @@
     <form class="main-form">
         <legend class="main-title -second">Contatos</legend>
         <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="name" type="text">
+        <input class="main-input" id="name" type="text" required>
 
         <label class="main-label" for="email">Email</label>
-        <input class="main-input" id="email" type="email">
+        <input class="main-input" id="email" type="email" required>
 
         <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -area" id="message"></textarea>
+        <textarea class="main-input -area" minlength="10" id="message"></textarea>
 
-        <button class="main-button -full" type="submit">Enviar</button>
+        <button class="main-button -full" type="submit">Enviar</button textarea minlength="10">
 
     </form>
     <footer class="main-footer">
